@@ -22,12 +22,18 @@ module  pll_0002(
 		.reference_clock_frequency("50.0 MHz"),
 		.operation_mode("direct"),
 		.number_of_clocks(2),
-		.output_clock_frequency0("53.693175 MHz"),
+		.output_clock_frequency0("53.203000 MHz"), //PAL
 		.phase_shift0("0 ps"),
 		.duty_cycle0(50),
-		.output_clock_frequency1("107.386350 MHz"),
+		.output_clock_frequency1("106.406000 MHz"), //PAL
 		.phase_shift1("0 ps"),
 		.duty_cycle1(50),
+//		.output_clock_frequency0("53.693175 MHz"), //NTSC
+//		.phase_shift0("0 ps"),
+//		.duty_cycle0(50),
+//		.output_clock_frequency1("107.386350 MHz"), //NTSC
+//		.phase_shift1("0 ps"),
+//		.duty_cycle1(50),
 		.output_clock_frequency2("0 MHz"),
 		.phase_shift2("0 ps"),
 		.duty_cycle2(50),
